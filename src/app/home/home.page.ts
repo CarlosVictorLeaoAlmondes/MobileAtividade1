@@ -14,9 +14,7 @@ export class HomePage {
 
     const alert = await this.alertController.create({
       cssClass: 'my-custom-class',
-      header: 'Alert',
-      subHeader: 'Subtitle',
-      message: 'This is an alert message.',
+      message: 'Cadastro feito com sucesso!',
       buttons: ['OK']
     });
 
